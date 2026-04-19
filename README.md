@@ -137,14 +137,15 @@ Recovery generally declined with increasing slope. Gentle slopes showed higher m
 │   ├── raw/
 │   └── processed/
 ├── figures/
-│   ├── study_area_location.png
+│   ├── study_area.png
 │   ├── workflow.png
-│   ├── yod_map.png
+│   ├── yod.png
 │   ├── burn_severity.png
-│   ├── recovery_rate_map.png
+|   ├── slope.tif
+│   ├── recovery_rate.png
 │   ├── recovery_histogram.png
 │   ├── recovery_slope_boxplot.png
-│   └── trajectoryline.png
+│   └── trajectory.png
 └── docs/
     └── report.pdf
 ```

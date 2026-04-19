@@ -99,7 +99,6 @@ This project generates the following main outputs:
 7. Recovery rate map
 8. Recovery histogram
 9. Recovery vs slope box plot
-10. Recovery vs slope scatter plot
 ## Results
 
 ### Wildfire disturbance timing

@@ -128,10 +128,7 @@ Recovery generally declined with increasing slope. Gentle slopes showed higher m
 .
 ├── README.md
 ├── scripts/
-│   ├── gee_landtrendr.js
-│   ├── preprocessing.js
-│   ├── recovery_analysis.js
-│   └── terrain_analysis.js
+│   ├── gee_landtrendr_rimfire.js
 ├── data/
 │   ├── raw/
 │   └── processed/

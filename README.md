@@ -144,7 +144,7 @@ Recovery generally declined with increasing slope. Gentle slopes showed higher m
 │   ├── recovery_rate_map.png
 │   ├── recovery_histogram.png
 │   ├── recovery_slope_boxplot.png
-│   └── recovery_slope_scatter.png
+│   └── trajectoryline.png
 └── docs/
     └── report.pdf
 ```

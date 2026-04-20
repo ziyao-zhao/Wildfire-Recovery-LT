@@ -5,20 +5,12 @@ for GEOG60941 Environmental Remote Sensing.
 Modified and extended for an independent Rim Fire case study project.
 */
 
-/*
-* ------------------------------------------------------------------------------
-* Displaying the Rim Fire perimeter boundary
-* ------------------------------------------------------------------------------
-*/
+// Displaying the Rim Fire perimeter boundary
 Map.addLayer(RimFireBoundary, {palette: '000000'}, 'RimFireBoundary');
 Map.centerObject(RimFireBoundary, 10);
 
 
-/* ------------------------------------------------------------------------------
-*  Define parameters for the LandTrendr workflow
-*------------------------------------------------------------------------------
-*/
-
+// Define parameters for the LandTrendr workflow
 //Define Landsat collection parameters
 var startYear = 1984; // Start year
 var endYear = 2021; // End year
@@ -80,7 +72,6 @@ print('LandTrendr projection', changeImg.projection());
 * and later analysis.
 */
 
-
 //Get the spatial referencing of the image prior to export
 print("Landsat Projection, crs, and crs_transform:",  changeImg.projection());
 
@@ -94,17 +85,11 @@ Export.image.toAsset({
 });
 
 
-/* ------------------------------------------------------------------------------
-* Load the exported LandTrendr image from the Assets tab
-* ------------------------------------------------------------------------------
-* In this workflow, imgRF refers to the imported LandTrendr result image.
-*/
+// Load the exported LandTrendr image from the Assets tab
+//In this workflow, imgRF refers to the imported LandTrendr result image.
 print(imgRF, "Details of imported LandTrendr image");
 
-/* ------------------------------------------------------------------------------
-* Visualising the outputs
-* -----------------------------------------------------------------------------
-*/
+//Visualising the outputs
 //Plot some histograms to quickly look at the approx. number of pixels in different  // categories/bins
 var magOutputHist =ui.Chart.image.histogram(imgRF
                                   .select('mag')

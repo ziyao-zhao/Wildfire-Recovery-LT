@@ -24,7 +24,7 @@ This repository is designed as a portfolio-style GIS and remote sensing project 
 ## Study Area
 
 The study area covers the Rim Fire burn region in California, USA, within Stanislaus National Forest in Tuolumne County, a fire-prone area characterized by mountainous terrain with strong elevation variation from low hills to mid- and high-elevation landscapes.
-
+![Study area map](figures/study_area.png)
 ## Data
 
 ### Remote sensing data
@@ -85,20 +85,27 @@ Post-fire recovery was evaluated using LandTrendr-derived **NBR recovery metrics
 5. Disturbance filtering  
 6. Recovery metric extraction  
 7. Slope derivation and reclassification  
-8. Visualization and interpretation  
+8. Visualization and interpretation
+![Workflow diagram](figures/workflow.png)
 
 ## Key Outputs
 This project generates the following main outputs:
 
 1. Study area map
 2. LandTrendr-fitted NBR trajectory
-3. Slope map
-4. Year of Detection (YOD) map
-5. YOD pixel statistics
-6. Burn severity map
-7. Recovery rate map
-8. Recovery histogram
-9. Recovery vs slope box plot
+  ![LandTrendr trajectory](figures/trajectory.png)
+4. Slope map
+![Slope map](figures/slope.png)
+6. Year of Detection (YOD) map
+![Year of Detection map](figures/yod.png)
+8. Burn severity map
+![Burn severity map](figures/burn_severity.png)
+9. Recovery rate map
+![Recovery rate map](figures/recovery_rate.png)
+11. Recovery histogram
+![Recovery histogram](figures/recovery_histogram.png)
+13. Recovery vs slope box plot
+![Recovery by slope class](figures/recovery_slope_boxplot.png)
 ## Results
 
 ### Wildfire disturbance timing

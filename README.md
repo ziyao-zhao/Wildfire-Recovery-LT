@@ -24,7 +24,7 @@ This repository is designed as a portfolio-style GIS and remote sensing project 
 ## Study Area
 
 The study area covers the Rim Fire burn region in California, USA, within Stanislaus National Forest in Tuolumne County, a fire-prone area characterized by mountainous terrain with strong elevation variation from low hills to mid- and high-elevation landscapes.
-![Study area map](figures/study_area.png)
+![Study area map](figures/study_area_location.png)
 ## Data
 
 ### Remote sensing data
@@ -86,26 +86,37 @@ Post-fire recovery was evaluated using LandTrendr-derived **NBR recovery metrics
 6. Recovery metric extraction  
 7. Slope derivation and reclassification  
 8. Visualization and interpretation
-![Workflow diagram](figures/workflow.png)
+<h3>Workflow diagram</h3>
+<img src="figures/workflow.png" alt="Workflow diagram" width="650">
 
 ## Key Outputs
 This project generates the following main outputs:
 
 1. Study area map
+<h3>Study area map</h3>
+<img src="figures/study_area_location.png" alt="Study area" width="650"> 
 2. LandTrendr-fitted NBR trajectory
-  ![LandTrendr trajectory](figures/trajectory.png)
-4. Slope map
-![Slope map](figures/slope.png)
-6. Year of Detection (YOD) map
-![Year of Detection map](figures/yod.png)
-8. Burn severity map
-![Burn severity map](figures/burn_severity.png)
-9. Recovery rate map
-![Recovery rate map](figures/recovery_rate.png)
-11. Recovery histogram
-![Recovery histogram](figures/recovery_histogram.png)
-13. Recovery vs slope box plot
-![Recovery by slope class](figures/recovery_slope_boxplot.png)
+<h3>LandTrendr-fitted NBR trajectory</h3>
+<img src="figures/trajectory_line.png" alt="LandTrendr trajectory" width="650">
+3. Slope map
+<h3>Slope map</h3>
+<img src="figures/slope.png" alt="Slope map" width="750">
+4. Year of Detection (YOD) map
+<h3>Year of Detection (YOD) map</h3>
+<img src="figures/yod_map.png" alt="Year of Detection map" width="750">
+5. Burn severity map
+<h3>Burn severity map</h3>
+<img src="figures/burn_severity.png" alt="Burn severity map" width="750">
+6. Recovery rate map
+<h3>Recovery rate map</h3>
+<img src="figures/recovery_rate_map.png" alt="Recovery rate map" width="750">
+7. Recovery histogram
+<h3>Recovery histogram</h3>
+<img src="figures/recovery_histogram.png" alt="Recovery histogram" width="650">
+8. Recovery vs slope box plot
+<h3>Recovery vs slope box plot</h3>
+<img src="figures/recovery_slope_boxplot.png" alt="Recovery by slope class" width="650">
+
 ## Results
 
 ### Wildfire disturbance timing
